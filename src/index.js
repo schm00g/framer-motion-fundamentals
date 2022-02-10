@@ -30,9 +30,3 @@ render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-// how to use react-router
-// https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
-
-// TODO: had to roll back to framer-motion 5 - y tho?
