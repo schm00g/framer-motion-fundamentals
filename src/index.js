@@ -10,8 +10,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Animation from "./routes/animation";
 import Keyframes from "./routes/keyframes";
-import Transition from "./routes/transition";
-import Gestures from "./routes/gestures";
+import Tap from "./routes/tap";
+import SVG from "./routes/svg";
+import Focus from "./routes/focus";
 
 render(
   <BrowserRouter>
@@ -19,8 +20,9 @@ render(
       <Route path="/" element={<App />} />
       <Route path="animation" element={<Animation />} />
       <Route path="keyframes" element={<Keyframes />} />
-      <Route path="transition" element={<Transition />} />
-      <Route path="gestures" element={<Gestures />} />
+      <Route path="tap" element={<Tap/>} />
+      <Route path="svg" element={<SVG />} />
+      <Route path="focus" element={<Focus />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

@@ -9,8 +9,9 @@ function App() {
       <nav>
         <Link to="/animation">Animation</Link> |{" "}
         <Link to="/keyframes">Keyframes</Link> |{" "}
-        <Link to="/gestures">Gestures</Link> |{" "}
-        <Link to="/transition">Transition</Link>
+        <Link to="/tap">Tap</Link> |{" "}
+        <Link to="/focus">Focus</Link> |{" "}
+        <Link to="/svg">SVG</Link>
       </nav>
     </div>
   );
