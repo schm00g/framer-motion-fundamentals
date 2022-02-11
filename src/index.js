@@ -13,6 +13,7 @@ import Keyframes from "./routes/keyframes";
 import Tap from "./routes/tap";
 import SVG from "./routes/svg";
 import Focus from "./routes/focus";
+import Crypto from "./routes/crypto";
 
 render(
   <BrowserRouter>
@@ -21,8 +22,9 @@ render(
       <Route path="animation" element={<Animation />} />
       <Route path="keyframes" element={<Keyframes />} />
       <Route path="tap" element={<Tap/>} />
-      <Route path="svg" element={<SVG />} />
       <Route path="focus" element={<Focus />} />
+      <Route path="svg" element={<SVG />} />
+      <Route path="crypto" element={<Crypto />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

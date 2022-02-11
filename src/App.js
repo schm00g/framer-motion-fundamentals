@@ -11,7 +11,8 @@ function App() {
         <Link to="/keyframes">Keyframes</Link> |{" "}
         <Link to="/tap">Tap</Link> |{" "}
         <Link to="/focus">Focus</Link> |{" "}
-        <Link to="/svg">SVG</Link>
+        <Link to="/svg">SVG</Link> |{" "}
+        <Link to="/crypto">Crypto</Link>
       </nav>
     </div>
   );
