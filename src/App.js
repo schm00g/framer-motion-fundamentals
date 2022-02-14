@@ -12,7 +12,8 @@ function App() {
         <Link to="/tap">Tap</Link> |{" "}
         <Link to="/focus">Focus</Link> |{" "}
         <Link to="/svg">SVG</Link> |{" "}
-        <Link to="/crypto">Crypto</Link>
+        <Link to="/crypto">Crypto</Link> |{" "}
+        <Link to="/nft">NFT</Link>
       </nav>
     </div>
   );

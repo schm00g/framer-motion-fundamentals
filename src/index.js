@@ -14,6 +14,7 @@ import Tap from "./routes/tap";
 import SVG from "./routes/svg";
 import Focus from "./routes/focus";
 import Crypto from "./routes/crypto";
+import NFT from "./routes/nft";
 
 render(
   <BrowserRouter>
@@ -25,6 +26,7 @@ render(
       <Route path="focus" element={<Focus />} />
       <Route path="svg" element={<SVG />} />
       <Route path="crypto" element={<Crypto />} />
+      <Route path="nft" element={<NFT />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
